@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Our Products – Chippinz™</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      background-color: #5F9EA0;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #004C4C;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #B0E0E6;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 30px 20px 20px;
+      font-size: 2.4em;
+      color: #FFD700;
+    }
+
+   
+    .product-image-banner {
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      aspect-ratio: 3 / 2;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .product-image-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .product-card {
+      background-color: #004D61;
+      width: 260px;
+      padding: 18px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .product-card h2 {
+      color: #FFD700;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 1em;
+      margin: 10px 0 15px;
+      line-height: 1.5;
+      color: #FFF8DC;
+    }
+
+    .order-btn {
+      background-color: #FFD700;
+      color: #003333;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      display: inline-block;
+      font-size: 1em;
+    }
+
+    .order-btn:hover {
+      background-color: #FFC400;
+    }
+
+ 
+    .video-wrapper {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .video-wrapper video {
+      width: 320px;
+      height: 240px;
+      max-width: 90%;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    .footer {
+      background-color: #004C4C;
+      text-align: center;
+      padding: 24px;
+      color: #FFD700;
+      font-style: italic;
+      margin-top: 40px;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">Creators</a>
+    <a href="product.html">Product</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Explore the Chippinz™ Lineup</h1>
+
+  <div class="product-image-banner">
+    <img src="Products.png.png" alt="All Chippinz™ Products">
+  </div>
+
+  <div class="product-list">
+    <div class="product-card">
+      <h2>Coastal Banana</h2>
+      <p class="description">Blue Banana & Sea Salt – A light, crispy classic with a perfect salty-sweet balance and island vibes in every bite.</p>
+    </div>
+
+    <div class="product-card">
+      <h2>Golden Ember</h2>
+      <p class="description">Rich, earthy Jamaican sweet potatoes kissed with warm cinnamon for a naturally sweet crunch.</p>
+    </div>
+
+    <div class="product-card">
+      <h2>Tropic Tang</h2>
+      <p class="description">Tropical and tangy — sun-ripened mango meets a zing of lime for a bold, juicy twist.</p>
+    </div>
+
+    <div class="product-card">
+      <h2>FiyaFruit Crunch</h2>
+      <p class="description">Smoky, hearty breadfruit with a fiery scotch bonnet kick — spicy like yaad should be.</p>
+    </div>
+  </div>
+
+  <!-- Video below products -->
+  <div class="video-wrapper">
+    <video controls>
+      <source src="ChippyPromo.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div style="text-align: center; margin: 30px 0;">
+    <a href="pricing.html" class="order-btn">Order Now</a>
+  </div>
+
+</body>
+</html>
